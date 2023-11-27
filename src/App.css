@@ -1,10 +1,11 @@
+
 .App {
   text-align: center;
+  background-color: 'whitesmoke';
 }
+.Box{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: 'whitesmoke';
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+.css-1q04gal-MuiDateCalendar-root{
+  border: 1px solid black;
+}
+
+.css-3jvy96-MuiTypography-root-MuiDatePickerToolbar-title{
+  display: none;
+}
+.css-4pax7l-MuiPickersLayout-root .MuiPickersLayout-actionBar{
+  display: none;
+}
+.css-1rv8zyt-MuiStack-root>:not(style):not(style) {
+  align-items: center;
+  margin: 0;
+}
+.MuiDataGrid-colCellTitle {
+  display: block; 
+  text-align:center; 
+  width: 100%; 
+}
+
+.MuiDataGrid-cell {
+  display: block;
+  position: relative;
+  text-align: center;
 }
